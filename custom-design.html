@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Sir | Custom Design Space</title>
+    <link rel="stylesheet" href="cd-style.css">
+    <link rel="icon" type="image/x-icon" href="red-shirt.png">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f1a1e3d640.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <em><h1><a href="index.html">T-Shirt Sir</a></h1></em>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Catalog</a></li>
+            <li><a href="custom-design.html">Custom</a></li>
+            <li><a href="">About</a></li>
+            <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div id="design-space">
+            <div id="option-container">
+                <div class="img-container">
+                    <img src="blue-shirt.png" alt="" onclick = "document.getElementById('template-shirt').src='blue-shirt.png';">
+                </div>
+                <div class="img-container">
+                    <img src="red-shirt.png" alt="" onclick="document.getElementById('template-shirt').src='red-shirt.png';">
+                </div>
+                <div class="img-container">
+                    <img src="pink-shirt.png" alt="" onclick="document.getElementById('template-shirt').src='pink-shirt.png';">
+                </div>
+                <div class="img-container">
+                    <img src="green-shirt.png" alt="" onclick="document.getElementById('template-shirt').src='green-shirt.png';">
+                </div>
+                <div class="img-container">
+                    <img src="orange-shirt.png" alt="" onclick="document.getElementById('template-shirt').src='orange-shirt.png';">
+                </div>
+                <div class="img-container">
+                    <img src="purple-shirt.png" alt="" onclick="document.getElementById('template-shirt').src='purple-shirt.png';">
+                </div>
+                <label for="button">Upload Image</label>
+                <input id="button" type="file" style="display: none;" accept="image/jpg, image/jpeg, image/png">
+                <a id="check-out" href="checkout.html">Check out</a>
+            </div>
+            <div id="t-shirt">
+                <img id="template-shirt" src="t-shirt-template.png" alt="">
+                <img id="uploaded-img" src="" alt="" style="display: none;">
+            </div>
+        </div>
+    </main>
+
+    <script>
+
+        let uploadedImg = document.getElementById('uploaded-img');
+        let inputFile = document.getElementById('button');
+
+        inputFile.onchange = function(){
+            uploadedImg.src = URL.createObjectURL(inputFile.files[0]);
+            document.getElementById('uploaded-img').style.display = 'block';
+            document.getElementById('check-out').style.display = 'block';
+        }
+
+    </script>
+    
+</body>
+</html>
