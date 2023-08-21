@@ -75,13 +75,11 @@ main div h1 {
 
 main div p {
     padding-top: 0.3vh;
-    color: red;
     font-weight: 500;
 }
 
 main div a {
-    cursor: pointer;
-    color: white;
+    color: red;
     transition: color ease 0.3s;
     text-decoration: none;
 }

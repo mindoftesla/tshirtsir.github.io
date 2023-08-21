@@ -79,5 +79,27 @@ main {
     color: #fff;
     margin-left: 2vw;
     margin-top: 2vh;
+    margin-bottom: 5vh;
     font-size: 1.7vw;
+}
+
+#cart {
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 2vw;
+    font-size: 1vw;
+    text-decoration: none;
+    transition: border 0.3s ease;
+    padding: 0.4vw 0.7vw;
+    border-radius: 0.7vw;
+    border: 2px solid rgb(214, 214, 0);
+    transition: border-color 0.3s ease, background 0.3s ease, color 0.3s ease;
+    background: yellow;
+}
+
+#cart:hover {
+    background: rgb(162, 162, 0);
+    border-color: yellow;
+    color: #fff;
 }
