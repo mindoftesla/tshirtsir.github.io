@@ -35,6 +35,10 @@ header {
     align-items: center;
 }
 
+header ul img {
+    width: 1.1vw;
+}
+
 header ul a {
     text-decoration: none;
     color: #fff;

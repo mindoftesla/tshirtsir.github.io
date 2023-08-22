@@ -13,6 +13,10 @@ header ul {
     list-style: none;
 }
 
+header ul img {
+    width: 1.1vw;
+}
+
 header h1 a {
     text-transform: uppercase;
     user-select: none;
