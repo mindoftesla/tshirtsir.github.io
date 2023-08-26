@@ -218,3 +218,38 @@ section {
         width: 3.6vw;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .product img {
+        width: 25vw;
+    }
+    .pname {
+        width: 25vw;
+    }
+    #rec-products {
+        grid-template-columns: auto auto auto;
+    }
+    #product-display {
+        margin-top: 8vh;
+        margin-bottom: 21vh;
+        display: flex;
+    }
+
+    header ul img {
+        width: 2.25vw;
+    }
+    #ptitle {
+        margin-top: 1vh;
+        font-size: 4vw;
+    }
+    #pprice {
+        font-size: 3vw;
+    }
+    #cart {
+        font-size: 1.4vw;
+    }
+    
+    #cart img {
+        width: 2vw;
+    }
+}
