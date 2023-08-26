@@ -152,6 +152,9 @@ section {
     .product img {
         width: 40vw;
     }
+    .pname {
+        width: 40vw;
+    }
     #rec-products {
         grid-template-columns: auto auto;
     }
