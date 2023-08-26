@@ -115,4 +115,8 @@ main div a:hover {
     header {
         padding: 0;
     }
+    main div h1 {
+        width: 75vw;
+        font-size: 8vw;
+    }
 }
