@@ -67,7 +67,7 @@ main {
     margin-top: 6vh;
     width: 85vw;
     display: grid;
-    justify-content: center;
+    justify-content: space-between;
     grid-template-columns: auto auto auto auto;
 }
 
@@ -95,7 +95,7 @@ main {
 
 @media screen and (max-width: 390px) {
     .product img {
-        width: 40vw;
+        width: 42vw;
     }
     #product-display {
         grid-template-columns: auto auto;
@@ -112,6 +112,7 @@ main {
         top: 8.5%;
         width: 100vw;
         justify-content: center;
+        padding: 0;
     }
     header ul li {
         font-size: 3vw;
