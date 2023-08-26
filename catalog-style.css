@@ -97,6 +97,9 @@ main {
     .product img {
         width: 40vw;
     }
+    .pname {
+        width: 40vw;
+    }
     #product-display {
         grid-template-columns: auto auto;
     }
