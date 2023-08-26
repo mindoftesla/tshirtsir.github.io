@@ -91,3 +91,28 @@ main div a {
 main div a:hover {
     color: rgb(153, 0, 0);
 }
+
+@media screen and (max-width: 390px) {
+    header h1 {
+        font-size: 7vw;
+        width: 100vw;
+        text-align: center;
+    }
+    header ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 8.5%;
+        width: 100vw;
+        justify-content: center;
+    }
+    header ul li {
+        font-size: 3vw;
+    }
+    header ul img {
+        width: 2.75vw;
+    }
+    header {
+        padding: 0;
+    }
+}
