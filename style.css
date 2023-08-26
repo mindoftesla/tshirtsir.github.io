@@ -92,6 +92,18 @@ main div a:hover {
     color: rgb(153, 0, 0);
 }
 
+#background {
+    width: 100vw;
+    height: 91.7vh;
+    overflow: hidden;
+    position: absolute;
+    object-position: right;
+    background: url(background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
 @media screen and (max-width: 390px) {
     header h1 {
         font-size: 7vw;
