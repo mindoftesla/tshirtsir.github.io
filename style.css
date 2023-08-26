@@ -132,3 +132,9 @@ main div a:hover {
         font-size: 8vw;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    header ul img {
+        width: 2.25vw;
+    }
+}
