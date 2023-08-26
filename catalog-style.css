@@ -92,3 +92,36 @@ main {
 .pname {
     margin-top: 0.4vh;
 }
+
+@media screen and (max-width: 390px) {
+    .product img {
+        width: 40vw;
+    }
+    #product-display {
+        grid-template-columns: auto auto;
+    }
+    header h1 {
+        font-size: 7vw;
+        width: 100vw;
+        text-align: center;
+    }
+    header ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 8%;
+    }
+    header ul li {
+        font-size: 3vw;
+    }
+    #product-display {
+        margin-top: 8vh;
+    }
+    header ul img {
+        width: 2.75vw;
+    }
+    header ul {
+        width: 100%;
+        justify-content: center;
+    }
+}
