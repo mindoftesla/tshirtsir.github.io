@@ -148,7 +148,7 @@ section {
     justify-content: center;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
     .product img {
         width: 40vw;
     }
