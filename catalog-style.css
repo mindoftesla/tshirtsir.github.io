@@ -130,3 +130,21 @@ main {
         padding: 0;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .product img {
+        width: 25vw;
+    }
+    .pname {
+        width: 25vw;
+    }
+    #product-display {
+        grid-template-columns: auto auto auto;
+    }
+    #product-display {
+        margin-top: 8vh;
+    }
+    header ul img {
+        width: 2.25vw;
+    }
+}
