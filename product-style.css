@@ -219,7 +219,7 @@ section {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
     .product img {
         width: 25vw;
     }
