@@ -190,17 +190,21 @@ main {
     }
     #design-space label {
         width: auto;
+        height: 100%;
     }
     main {
-        height: 40vh;
+        height: 30vh;
+        margin-top: 8vh;
     }
     #option-container {
         top: 50%;
         left: 20%;
+        top: 30%;
         transform: translateY(-50%);
         grid-template-columns: auto auto;
         height: 13vh;
         width: 60%;
+        transform: translateX(50%);
     }
 }
 
