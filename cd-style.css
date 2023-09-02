@@ -185,14 +185,14 @@ main {
         padding: 0;
     }
     #design-space {
-        margin-top: 4vh;
-        height: 30vh;
+        height: 100%;
     }
     #design-space label {
         width: 100%;
     }
     main {
-        height: 40vh;
+        height: 30vh;
+        margin-top: 8vh;
     }
     #option-container {
         top: 50%;
