@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T-Shirt Sir | Catalog</title>
-    <link rel="stylesheet" href="product-style.css">
+    <link rel="stylesheet" href="product-style.css"><script src="script.js"></script>
     <link rel="icon" type="image/x-icon" href="red-shirt.png">
     <script src="https://kit.fontawesome.com/f1a1e3d640.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
     <header>
         <em><h1><a href="index.html">T-Shirt Sir</a></h1></em>
         <ul>
@@ -24,11 +23,18 @@
     <main>
         <div id="product-display">
             <div id="display-img">
-                <img src="I Love Dogs.png" alt="">
+                <img src="I Love Dogs.png" alt="" id="picture">
             </div>
             <div id="ptext">
                 <p id="ptitle">I Love Dogs T-Shirt</p>
                 <p id="pprice">$15.00</p>
+                <div class="select-container">
+                    <select name="colors" size="1">
+                        <option value="yellow">Yellow</option>
+                        <option value="grey">Grey</option>
+                        <option value="red">Red</option>
+                    </select>
+                </div>
                 <a href="" id="cart"><img src="add-cart.png" alt=""></i> Add to Cart</a>
             </div>
         </div>
@@ -73,6 +79,8 @@
             </div>
         </div>
     </section>
+    
+    <script src="script.js"></script>
 
 </body>
 </html>
