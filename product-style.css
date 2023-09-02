@@ -236,7 +236,9 @@ section {
         display: inline-block;
     }
     .select-container {
-        display: flex;
+        /*display: flex;
+        justify-content: center;*/
+        display: inline-block;
         justify-content: center;
     }
 }
