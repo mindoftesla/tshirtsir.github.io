@@ -188,18 +188,18 @@ main {
         margin-top: 4vh;
         height: 30vh;
     }
+    #design-space label {
+        width: 100%;
+    }
     main {
         height: 40vh;
     }
     #option-container {
-        display: grid;
-        position: relative;
         top: 50%;
         transform: translateY(-50%);
         grid-template-columns: auto auto;
-        justify-content: center;
-        align-items: center;
         height: 13vh;
+        width: 60%;
     }
 }
 
