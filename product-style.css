@@ -240,6 +240,7 @@ section {
         justify-content: center;*/
         display: inline-block;
         justify-content: center;
+        text-align: center;
     }
 }
 
