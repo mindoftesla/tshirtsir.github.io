@@ -262,12 +262,19 @@ section {
     }
     #pprice {
         font-size: 3vw;
+        display: inline-block;
     }
     #cart {
         font-size: 1.4vw;
+        display: block;
     }
     
     #cart img {
         width: 1.7vw;
+    }
+    #ptext select {
+        width: 25vw;
+        margin-left: 4vw;
+        display: inline-block;
     }
 }
