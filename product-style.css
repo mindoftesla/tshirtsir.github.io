@@ -234,12 +234,6 @@ section {
         width: 25vw;
         margin-left: 4vw;
         display: inline-block;
-    }
-    .select-container {
-        /*display: flex;
-        justify-content: center;*/
-        display: inline-block;
-        justify-content: center;
         text-align: center;
     }
 }
