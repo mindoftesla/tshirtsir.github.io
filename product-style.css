@@ -224,6 +224,7 @@ section {
     }
     #cart {
         font-size: 3.5vw;
+        display: block;
     }
     
     #cart img {
@@ -231,7 +232,8 @@ section {
     }
     #ptext select {
         width: 40vw;
-        margin-left: 0;;
+        margin-left: 4vw;
+        display: inline-block;
     }
     .select-container {
         display: flex;
