@@ -190,7 +190,7 @@ main {
     }
     #design-space label {
         width: auto;
-        height: 100%;
+        height: auto;
     }
     main {
         height: 30vh;
@@ -198,7 +198,7 @@ main {
     }
     #option-container {
         top: 50%;
-        left: 20%;
+        left: 0;
         top: 30%;
         transform: translateY(-50%);
         grid-template-columns: auto auto;
