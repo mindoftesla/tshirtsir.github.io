@@ -189,13 +189,14 @@ main {
         height: 30vh;
     }
     #design-space label {
-        width: 100%;
+        width: auto;
     }
     main {
         height: 40vh;
     }
     #option-container {
         top: 50%;
+        left: 20%;
         transform: translateY(-50%);
         grid-template-columns: auto auto;
         height: 13vh;
