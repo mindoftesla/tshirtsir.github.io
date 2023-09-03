@@ -234,6 +234,7 @@ section {
         width: 25vw;
         margin-left: 4vw;
         display: inline-block;
+        
     }
 }
 
@@ -267,6 +268,10 @@ section {
     #cart {
         font-size: 1.4vw;
         display: block;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        width: 25vw;
     }
     
     #cart img {
@@ -274,7 +279,7 @@ section {
     }
     #ptext select {
         width: 25vw;
-        margin-left: 4vw;
+        margin-left: 2vw;
         display: inline-block;
     }
 }
